@@ -9,7 +9,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>PROJECT 5</title>
+		<title>PROJECT 6</title>
 	
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="assets/css/normalize.css">
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="assets/css/font-awesome.min.css">
@@ -26,6 +26,7 @@
 					<h1>Bo Ling</h1>
 					<a class="button slideup" href="#add-marker"><i class="icon-map-marker">Add Marker</i></a>
 					<a class="slideup" href="#edit"></a>
+					<a class="leftButton button slideup" href="#settings">Settings</a>
 				</header>
 				
 				<ul class="rounded">
@@ -100,6 +101,28 @@
 						<div class="redButton" id="delete-marker">Delete Marker</div>
 					</div>
 				</form>
+			</div>
+			
+			<div id="settings">
+                <header class="toolbar">
+					<h1>Settings</h1>
+					<a class="back" href="#home">Map</a>
+                </header>
+                
+				
+	        	<form id="new-marker">
+                    <ul class="edit rounded">
+                        <li><input type="text" name="name" placeholder="Marker Name" id="name"></li>
+                        <li><input type="text" name="street" placeholder="Street Address" id="street"></li>
+                        <li><input type="text" name="city" placeholder="City" id="city"></li>
+                        <li><input type="text" name="state" placeholder="State" id="state"></li>
+                        <li><input type="text" name="zip" placeholder="Zip Code" id="zip"></li>
+                    </ul>
+                    
+                    <div class="hidden-page">
+						<button class="submit blueButton">Add Marker</button>
+                    </div> 
+                </form>
 			</div>
 			
 		</div>
